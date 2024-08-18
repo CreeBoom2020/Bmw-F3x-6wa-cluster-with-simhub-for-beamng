@@ -10,6 +10,9 @@ from standart the scetch runs so that it send the RPM for a gasoline RPM disk on
 to fix that just change GRPMOND to false in the .ino file!
 
 lots of thanks to 
+
 @r00li for his carcluster project! since i took a few ids from that
+
 @VintageCollector for his g20 cluster demo test for ets2! also took a few ids from him
+
 @mr_goofy for help with the cruise control!
