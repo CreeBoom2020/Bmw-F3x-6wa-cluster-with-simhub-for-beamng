@@ -1,4 +1,4 @@
-Hello This is a setch for the bmw f3x series cluster using simhub and beamng.
+Hello This is a scetch for the bmw f3x series cluster using simhub and beamng.
 
 What i used
 an arduino uno and a seeed studio can bus shield clone
