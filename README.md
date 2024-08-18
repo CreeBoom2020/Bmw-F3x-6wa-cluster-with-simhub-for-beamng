@@ -11,7 +11,7 @@ pinout
 
 6 CAN H
 
-2 CAN L
+12 CAN L
 
 4,5 ntc temp sensor maybe 10k? (optionally)
 
