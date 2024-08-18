@@ -2,7 +2,9 @@ Hello This is a setch for the bmw f3x series cluster using simhub and beamng.
 
 What i used
 an arduino uno and a seeed studio can bus shield clone
+
 pinout
+
 1,2,11 12v
 7,8 gnd
 6 CAN H
