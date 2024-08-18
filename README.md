@@ -2,6 +2,12 @@ Hello This is a setch for the bmw f3x series cluster using simhub and beamng.
 
 What i used
 an arduino uno and a seeed studio can bus shield clone
+pinout
+1,2,11 12v
+7,8 gnd
+6 CAN H
+12 CAN L
+4,5 ntc temp sensor maybe 10k? (optionally)
 
 for cruise control doors trunk frunk read out u need to replace the simhubextras.lua file to this directory SteamLibrary\steamapps\common\BeamNG.drive\lua\vehicle\extensions\auto with the one thats here.
 
