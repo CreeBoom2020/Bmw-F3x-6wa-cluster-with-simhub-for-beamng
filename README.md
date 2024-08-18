@@ -22,6 +22,52 @@ if u dont want to do that chnage the EDITEDSELUA to false!
 from standart the scetch runs so that it send the RPM for a gasoline RPM disk on a diesel cluster since mine broke and changed the RPM disks from a nother cluster.
 to fix that just change GRPMOND to false in the .ino file!
 
+curent working thinks;
+RPM
+
+Speed
+
+How full the tank is
+
+engine oil temp
+
+EfficientDynamics
+
+consumption(a bit bugy sometimes workes sometimes not :/)
+
+trip km or miles
+
+engine water overhated mesage
+
+if a tire is deflated displayed on cluster if it is and wich one it is
+
+door open message for each door in game (requires simhubextras.lua patch)
+
+trunk open message (requires simhubextras.lua patch)
+
+hood open message (requires simhubextras.lua patch)
+
+drive mode select ( manuali in .ino file)
+
+change the language and other cluster seting(look in .ino file)
+
+cruisecontrol(requires simhubextras.lua patch)(only lamp working on speed readout)
+
+tsc lamp
+
+high beam lamp
+
+low beam lamp
+
+fogg light lamp
+
+backlight
+
+check engine light
+
+gear indecator (til 9)
+
+
 lots of thanks to 
 
 @r00li for his carcluster project! since i took a few ids from that
