@@ -22,7 +22,10 @@ if u dont want to do that chnage the EDITEDSELUA to false!
 from standart the scetch runs so that it send the RPM for a gasoline RPM disk on a diesel cluster since mine broke and changed the RPM disks from a nother cluster.
 to fix that just change GRPMOND to false in the .ino file!
 
+Set simhub Serial speed to 19200
+
 curent working thinks;
+
 RPM
 
 Speed
