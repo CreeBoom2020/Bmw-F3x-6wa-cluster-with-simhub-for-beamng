@@ -1,0 +1,54 @@
+format([DataCorePlugin.GameData.NewData.SpeedKmh],'0') + ';' + 
+isnull([DataCorePlugin.GameData.NewData.Rpms],'0') + ';' + 
+isnull([OilTemperature],'0') + ';' + 
+isnull([DataCorePlugin.Computed.Fuel_Percent],'0') + ';' + 
+minimum(1000, [GameRawData.light_Oil]) + ';' +
+isnull([DataCorePlugin.GameRawData.Damage.WearEngine],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.Lights.BlinkerLeftActive],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.Lights.BlinkerRightActive],'0') + ';' + 
+isnull([Turbo],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.Drivetrain.ParkingBrake],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.Axilliary.OilPressureWarning],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.Axilliary.BatteryVoltageWarning],'0') + ';' + 
+isnull([GameRawData.light_HighBeam],'0') + ';' + 
+maximum(460, [TurnIndicatorLeft]) + ';' +
+maximum(460, [TurnIndicatorRight]) + ';' +
+isnull([DataCorePlugin.GameData.NewData.ABSActive],'0') + ';' + 
+isnull([DataCorePlugin.GameData.NewData.TCActive],'0') + ';' + 
+isnull([DataCorePlugin.GameData.NewData.TCLevel],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.mEngineDamage],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.mCarFlags],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.Graphics.LightsStage],'0') + ';' + 
+isnull([DataCorePlugin.GameRawData.Graphics.FlashingLights],'0') + ';' + 
+isnull([GameRawData.light_Parkingbrake],'0') + ';' + 
+isnull([TurnIndicatorLeft],'0') + ';' + 
+isnull([TurnIndicatorRight],'0') + ';' + 
+isnull([GameRawData.Vehicle.CruiseControlActive],'0') + ';' + 
+isnull([EngineStarted],'0') + ';' + 
+isnull([GameRawData.Vehicle.Headlight],'0') + ';' + 
+isnull([DataCorePlugin.GameData.Gear],'0') + ';' + 
+isnull([GameRawData.light_LowBeam],'1') + ';' + 
+isnull([GameRawData.light_Fog],'1') + ';' +
+isnull([BrakesTemperatureAvg],'1') + ';' +
+minimum(1000, [GameRawData.light_EngineRunning]) + ';' +
+round([InstantConsumption_L100KM],2) + ';' + 
+isnull([DataCorePlugin.CurrentDateTime], 0) + ';' +
+round([BrakesTemperatureMax],0) + ';' + 
+isnull([GameRawData.light_HighBeam], 0) + ';' +
+isnull([GameRawData.waterTemp], 0) + ';' +
+isnull([Throttle], 0) + ';' +
+isnull([GameRawData.idle_rpm], 0) + ';' +
+isnull([GameRawData.wheel_isDeflated_fl], 0) + ';' +
+isnull([GameRawData.wheel_isDeflated_fr], 0) + ';' +
+isnull([GameRawData.wheel_isDeflated_rl], 0) + ';' +
+isnull([GameRawData.wheel_isDeflated_rr], 0) + ';' +
+isnull([GameRawData.input_steeringPercent], 0) + ';' +
+isnull([GameRawData.velX], 0) + ';' +
+isnull([GameRawData.velY], 0) + ';' +
+isnull([GameRawData.velZ], 0) + ';' +
+isnull([GameRawData.accX], 0) + ';' +
+isnull([GameRawData.accY], 0) + ';' +
+isnull([GameRawData.accZ], 0) + ';' +
+isnull([GameRawData.accZ], 0) + ';' +
+format([DataCorePlugin.GameRawData.ShowLights],'x') + ';' + 
+format([DataCorePlugin.CurrentGame],'0')
