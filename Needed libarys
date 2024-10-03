@@ -1,5 +1,5 @@
 Adafruit_gfx_libary https://github.com/adafruit/Adafruit-GFX-Library
-Adafruit_BusIO
-mcp_can
-Multimap
-X9C10X
+Adafruit_BusIO https://github.com/adafruit/Adafruit_BusIO
+mcp_can https://github.com/coryjfowler/MCP_CAN_lib
+Multimap https://www.arduino.cc/reference/en/libraries/multimap/
+X9C10X https://github.com/RobTillaart/X9C10X
