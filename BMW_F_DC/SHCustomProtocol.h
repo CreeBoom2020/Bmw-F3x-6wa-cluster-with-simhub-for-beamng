@@ -226,7 +226,7 @@ if(Temp > 0) { // -3 for mor acurate display of oil temp
 if(count == 0x77) {
 count = 0;
 }
-
+count +=1;
 uint8_t ignitionStatus = 0x8A;
         unsigned char ignitionWithoutCRC[] = { 0x80 | counter4Bit, ignitionStatus, 0xDD, 0xF1, 0x01, 0x30, 0x06 };
         uint8_t crc = crc8Calculator.get_crc8(ignitionWithoutCRC, 7, 0x44);
