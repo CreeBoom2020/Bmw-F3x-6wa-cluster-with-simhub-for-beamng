@@ -223,7 +223,7 @@ if(Temp > 0) { // -3 for mor acurate display of oil temp
 
 
 //ing part and Temp part
-if(count == 100) {
+if(count == 0x77) {
 count = 0;
 }
 
